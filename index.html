@@ -8,6 +8,14 @@
     <meta name="author" content="Josip Vančina">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skriptni jezici</title>
+    <!-- internal -->
+    <style>
+        li.drugi {
+            color: red;
+        }
+    </style>
+    <!-- external -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>Zadace</h1>
@@ -15,16 +23,22 @@
     <h2><a href="./zadaca1.html" target="_blank">Zadaća1</a></h2>
     <br>
     <hr>
+    <h2>Dodavanje CSS-a:</h2>
+    <ul>
+        <li style="color: blue;">Inline</li>
+        <li class="drugi">Internal</li>
+        <li class="treci">External</li>
+    </ul>
     <!-- heading elementi -->
     <h1>Najbolji filmovi</h1>
     <br><br>
     <h2>Top 3 filma</h2>
     <hr>
     <h3>1. The Shawshank Redemption</h3><br>
-        <p>jako dobar film o bijegu iz zatvora</p>
+        <p draggable="true">jako dobar film o bijegu iz zatvora</p>
     <br><h3>2. Dead Poets Society</h3><br>
         <p>Film o profesoru engleskog</p><br>
-    <h3>3. Good Will Hunting</h3><br>
+    <h3 id="Naslov">3. Good Will Hunting</h3><br>
         <p>film o genijalnom mladiću koji radi kao čistač na MIT-u</p>
 
     <!-- oblikovanje teksta -->

@@ -1,0 +1,25 @@
+
+/* classe pocinju s tockom moze biti vise s istim imenom */
+.treci {
+   color: green;
+}
+/* Element selector */
+h1 {
+   font-family: Arial, sans-serif;
+}
+/* ID selector  mora biti jedinstven */
+
+#Naslov {
+    color: chocolate;
+}
+
+/* selektor koji se primjenjuje na sve elemente */
+* {
+    background-color: beige;
+}
+
+
+/*selektor s odredenim atributom */
+p [draggable = "true"] {
+    background-color: rgb(0, 70, 114);
+}
