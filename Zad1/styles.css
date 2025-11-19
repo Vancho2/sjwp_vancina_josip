@@ -1,0 +1,25 @@
+.glava{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px;
+    text-align: start;
+}
+.sivi{
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.bijeli{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
