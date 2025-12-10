@@ -1,0 +1,165 @@
+.red {
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+}
+.blue {
+    width: 500px;
+    height: 170px;
+    background-color: blue;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+.white {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.blue-back {
+    width: 500px;
+    height: 300px;
+    background-color: #003897;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+.white-cross {
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+}
+.white-cross1 {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+}
+.red-cross {
+    width: 7%;
+    height: 100%;
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    left: 140px;
+}
+.red-cross1 {
+    width: 100%;
+    height: 13%;
+    position: absolute;
+    background-color: red;
+    top: 130px;
+    left: 0px;
+}
+.aquamarine {
+    width: 500px;
+    height: 300px;
+    background-color: #54a88c;
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+.yellow{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 33%;
+    left: 0px;
+}
+.black-triangle {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 250px solid black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.red-back{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+}
+.white-rec{
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.zig{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20% solid transparent;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+.zig1{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20% solid transparent;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+.zig2{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20% solid transparent;
+    position: absolute;
+    top: 120px;
+    left: 150px;
+}
+.zig3{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20% solid transparent;
+    position: absolute;
+    top: 180px;
+    left: 150px;
+}
+.zig4{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid white;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20% solid transparent;
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+
+body{
+    background-color: #7c7c7c;
+}
