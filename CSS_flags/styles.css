@@ -163,3 +163,95 @@
 body{
     background-color: #7c7c7c;
 }
+
+
+.kam1{
+    width: 600px;
+    height: 400px;
+    background-color: #007a5e;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+.kam2{
+    width: 200px;
+    height: 400px;
+    background-color: #ce1126;
+    position: relative;
+    top: 0px;
+    left: 200px;
+}
+.kam3{
+    width: 200px;
+    height: 400px;
+    background-color: #fcd116;
+    position: relative;
+    top: -400px;
+    left: 400px;
+}
+.zvijezda{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    top: -630px;
+    left: 41%;
+    position: relative;
+}
+.crv-back{
+    width: 500px;
+    height: 300px;
+    background-color: #d52b1e;
+    position: relative;
+    left: 100px;
+}
+.bijeli-krug{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+.crveni-krug{
+    width: 150px;
+    height: 150px;
+    background-color: #d52b1e;
+    border-radius: 500px;
+    position: relative;
+    top: -130px;
+    left: 100px;
+}
+.zijbij{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    top: -240px;
+    left: 45%;
+    position: relative;
+    transform: rotate(-20deg);
+}

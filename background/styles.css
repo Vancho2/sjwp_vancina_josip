@@ -1,0 +1,69 @@
+.background{
+    background-image: linear-gradient(to bottom, #f5ebfa,#49225b);
+    width: 1000px;
+    height: 2000x;
+    position: absolute;
+}
+.prvi{
+    position: relative;
+    background-color: #49225b;
+    width: 50%;
+    height: 200px;
+    left: 200px;
+    top: 100px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 45px -7px rgba(0,0,0,0.75);
+}
+.drugi{
+    position: relative;
+    background-color: #6e3482;
+    width: 50%;
+    height: 200px;
+    left: 200px;
+    border-radius: 100px;
+    top: 20px;
+    box-shadow: 0px 0px 45px -7px rgba(0,0,0,0.75);
+}
+.treci{
+    position: relative;
+    background-color: #a56abd;
+    width: 50%;
+    border-radius: 100px;
+    height: 200px;
+    left: 200px;
+    top: -30px;
+    box-shadow: 0px 0px 45px -7px rgba(0,0,0,0.75);
+}
+.cetvrti{
+    position: relative;
+    background-color: #e7dbef;
+    border-radius: 100px;
+    width: 50%;
+    height: 200px;
+    left: 200px;
+    top: -70px;
+    box-shadow: 0px 0px 45px -7px rgba(0,0,0,0.75);
+}.peti{
+    border-radius: 100px;
+    position: relative;
+    background-color: #f5ebfa;
+    width: 50%;
+    height: 200px;
+    left: 200px;
+    top: -100px;box-shadow: 0px 0px 45px -7px rgba(0,0,0,0.75);
+}
+.black{
+    left: 50px;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    color: white;
+}
+.purp{
+    left: 50px;
+    top: 50px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    color: #49225b;
+}
