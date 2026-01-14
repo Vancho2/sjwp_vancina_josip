@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: darkcyan;
+            /* transition-duration: 0.5s;
+            transition-property: width, height, background-color, transform;
+            transition-delay: 0s;
+            transition-timing-function: ease-out;
+        }
+        div:hover {
+            background-color: green;
+            width: 750px;
+        } */
+         transition: width 0.5s ease, transform 0.5s ease, background-color 0.5s ease;
+        }
+        div:hover {
+            background-color: green;
+            width: 750px;
+            transform: translatex(100px) rotate(200deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition</h1>
+    <div></div>
+</body>
+</html>
