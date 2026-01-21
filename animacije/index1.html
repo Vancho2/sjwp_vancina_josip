@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border-radius: 50%;
+            position: absolute;
+            top: 200px;
+            left: 50px;
+            animation: spin 1s infinite ease-in-out;
+
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .white {
+            border-radius: 50%;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            top: 205px;
+            border-top: white 20px solid;
+            border-bottom: transparent 20px solid;
+            border-left: transparent 20px solid;
+            left: 62px;
+            background-color: white;
+            animation: spinReverse 1s infinite ease-in-out;
+        }
+        @keyframes spinReverse {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="blue"></div>
+    <div class="white"></div>
+</body>
+</html>
