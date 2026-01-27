@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            background-color: lightgray;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            animation: tekstAnimacija 0.5s infinite ease-in-out;
+            animation-direction: forwards;
+            animation-play-state: paused;
+        }
+        div:hover{
+            animation-play-state: running;
+        }
+        @keyframes tekstAnimacija {
+            0%{
+                transform: scale(1);
+                background-color: lightgray;
+                box-shadow: #000 0px 0px 0px;
+            }
+            100%{
+                transform: scale(1.2);
+                box-shadow: #000 5px 5px 15px;
+                background-color: lightblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. M
+        axime modi debitis sunt voluptates dicta even
+        iet repellendus praesentium, quo dignissimos. 
+        Quos suscipit quisquam repellendus consequuntur distinctio,
+        corporis quae explicabo esse vel!</div>
+</body>
+</html>
