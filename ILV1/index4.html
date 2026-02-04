@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad5</title>
+    <style>
+
+        div{
+            width: 60px;
+            margin-left: 20px;
+            display: inline-block;
+            background-color: gray;
+            margin-top: 50px;
+            opacity: 1;
+            animation: raste 2.5s forwards;
+        }
+        .prvi{
+            height: 110px;
+            animation-delay: 0s;
+        }
+        .drugi{
+            height: 140px;
+            animation-delay: 0.8s;
+        }
+        .treci{
+            height: 170px;
+            animation-delay: 1.6s;
+        }
+        .cetvrti{
+            height: 200px;
+            animation-delay: 2.4s;
+        }
+        .peti{
+            height: 230px;
+            animation-delay: 3.2s;
+        }
+        @keyframes raste {
+            0% {
+                background-color: gray;
+            }
+            100% {
+                background-color: green;
+            }
+        }
+
+    </style>
+</head>
+<body>
+        <div class="prvi"></div>
+        <div class="drugi"></div>
+        <div class="treci"></div>
+        <div class="cetvrti"></div>
+        <div class="peti"></div>
+</body>
+</html>

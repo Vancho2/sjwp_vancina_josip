@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad3</title>
+    <style>
+        .krug{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 0%;
+            animation: move-animation 3s infinite alternate;
+        }
+        @keyframes move-animation {
+            0% { 
+                border-radius: 0%; 
+            } 
+            100% { 
+                border-radius: 50%; 
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="krug"></div>
+</body>
+</html>

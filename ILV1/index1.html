@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad2</title>
+    <style>
+        .fadein{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation: fadein-animation 2s forwards;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            opacity: 0;
+        }
+
+        @keyframes fadein-animation {
+            0% { 
+                opacity: 0;
+                transform: translate(0px); 
+            } 
+            100%{ 
+                transform: translate(200px);
+                opacity: 1; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="fadein">Ovo je tekst</div>
+</body>
+</html>
