@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        section {
+            flex: 0 49%;
+            flex-wrap: wrap;
+            background-color: lightgreen;
+        }
+        @media (min-width: 481px) {
+            section:first-child {
+                flex: 0 100%;
+                height: 20%;
+                margin: 5px;
+            }
+            section:nth-child(2), section:nth-child(3) {
+                flex: 0 48%;
+                margin: 5px;
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>A</section>
+        <section>B</section>
+        <section>C</section>
+    </main>
+</body>
+</html>
