@@ -1,0 +1,181 @@
+img {
+
+    width: 350px;
+    height: 450px;
+
+}
+
+h2 {
+
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: start;
+
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(5, minmax(350px, 1fr));
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.container div {
+
+    padding: 5px;
+    margin: 20px;
+    grid-template-columns: repeat(350,5);
+    grid-template-rows: repeat(450,5);
+    text-align: center;
+    border: 0px solid transparent;
+    border-radius: 10px;
+
+}
+
+body {
+
+    background-color: black;
+    color: white;
+
+}
+
+.container div:hover{
+
+    transform: scale(1.1);
+    transition: 0.4s;
+    border: 2px solid rosybrown;
+
+}
+
+.menu{
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.menu button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.menu h2{
+    font-size: 30px;
+    margin-right: 130vh;
+}
+
+.menu button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+.card1{
+    background-color: #1e1e1e;
+    grid-column: 0/1;
+    grid-row: 1/2;
+}
+.card2{
+    background-color: #1e1e1e;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.card3{
+    background-color: #1e1e1e;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.card4{
+    background-color: #1e1e1e;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.card5{
+    background-color: #1e1e1e;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.card6{
+    background-color: #1e1e1e;
+    grid-column: 0/1;
+    grid-row: 2/3;
+}
+.card7{
+    background-color: #1e1e1e;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.card8{
+    background-color: #1e1e1e;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.card9{
+    background-color: #1e1e1e;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.card10{
+    background-color: #1e1e1e;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.card11{
+    background-color: #1e1e1e;
+    grid-column: 0/1;
+    grid-row: 3/4;
+}
+.card12{
+    background-color: #1e1e1e;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.card13{
+    background-color: #1e1e1e;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.card14{
+    background-color: #1e1e1e;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.card15{
+    background-color: #1e1e1e;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.card16{
+    background-color: #1e1e1e;
+    grid-column: 0/1;
+    grid-row: 4/5;
+}
+.card17{
+    background-color: #1e1e1e;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.card18{
+    background-color: #1e1e1e;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.card19{
+    background-color: #1e1e1e;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.card20{
+    background-color: #1e1e1e;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
