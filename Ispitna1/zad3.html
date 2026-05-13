@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width:1024px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 10px;
+            }
+            .container div{
+                border: 2px solid black;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+        @media (max-width:768px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(12, 1fr);
+                gap: 2px;
+            }
+            .container div{
+                border: 2px solid black;
+            }
+        }
+        @media (min-width:768px) and (max-width: 1023px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: repeat(6, 1fr);
+                gap: 5px;
+            }
+            .container div{
+                border: 2px solid black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>slika1</div>
+        <div>slika2</div>
+        <div>slika3</div>
+        <div>slika4</div>
+        <div>slika5</div>
+        <div>slika6</div>
+        <div>slika7</div>
+        <div>sliak8</div>
+        <div>sliak9</div>
+        <div>slika10</div>
+        <div>slika11</div>
+        <div>slika12</div>
+    </div>
+</body>
+</html>

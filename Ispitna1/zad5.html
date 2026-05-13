@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         @media (max-width:768px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1.5fr repeat(5, 1fr);
+                gap: 5px;
+            }
+            .container div{
+                border-radius: 10px;
+            }
+            .prvi{
+                background-color: red;
+            }
+            .drugi{
+                background-color: blue;
+            }
+            .treci{
+                background-color: green;
+            }
+            .cetvrti{
+                background-color: yellow;
+            }
+            .peti{
+                background-color: purple;
+            }
+            .sesti{
+                background-color: gray;
+            }
+        }
+        
+        @media (min-width:1024px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 5px;
+            }
+            .container div{
+                border-radius: 10px;
+            }
+            .prvi{
+                background-color: red;
+                grid-area: 1 / 1 / 2 / 4;
+            }
+            .drugi{
+                background-color: blue;
+                grid-area: 1 / 4 / 2 / 5;
+            }
+            .treci{
+                background-color: green;
+            }
+            .cetvrti{
+                background-color: yellow;
+            }
+            .peti{
+                background-color: purple;
+            }
+            .sesti{
+                background-color: gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="prvi">prvi</div>
+        <div class="drugi">drugi</div>
+        <div class="treci">treci</div>
+        <div class="cetvrti">cetvrti</div>
+        <div class="peti">peti</div>
+        <div class="sesti">sesti</div>
+    </div>
+</body>
+</html>

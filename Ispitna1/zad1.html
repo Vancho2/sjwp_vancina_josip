@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        .container div{
+            background-color: white;
+        }
+        @media (min-width: 1024px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 10px;
+            }
+            .container div{
+                border: 1px solid black;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        @media (min-width: 768px) AND (max-width: 1023px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 10px;
+            }
+            .container div{
+                border: 1px solid black;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        @media (max-width: 768px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(8, 1fr);
+                gap: 10px;
+            }
+            .container div{
+                border: 1px solid black;
+                border-radius: 10px;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Proizvod 1</div>
+        <div>Proizvod 2</div>
+        <div>Proizvod 3</div>
+        <div>Proizvod 4</div>
+        <div>Proizvod 5</div>
+        <div>Proizvod 6</div>
+        <div>Proizvod 7</div>
+        <div>Proizvod 8</div>
+    </div>
+</body>
+</html>

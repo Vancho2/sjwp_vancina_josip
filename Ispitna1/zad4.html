@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width:1024px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-template-rows: 1fr;
+                gap: 5px;
+            }
+            .container div{
+                border-radius: 10px;
+            }
+            .prvi{
+                background-color: blue;
+            }
+            .drugi{
+                background-color: green;
+            }
+            .treci{
+                background-color: yellow;
+            }
+            .cetvrti{
+                background-color: purple;
+            }
+            .peti{
+                background-color: pink;
+            }
+        }
+        @media (min-width:768px) and (max-width:1023px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 5px;
+            }
+            .container div{
+                border-radius: 10px;
+            }
+            .prvi{
+                background-color: blue;
+                grid-area: 1 / 1 / 2 / 2;
+            }
+            .drugi{
+                background-color: green;
+            }
+            .treci{
+                background-color: yellow;
+            }
+            .cetvrti{
+                background-color: purple;
+            }
+            .peti{
+                background-color: pink;
+                grid-area: 3 / 1 / 4 / 3;
+            }
+        }
+        @media (max-width:768px){
+            .container{
+                height: 98vh;
+                width: 100%;
+                display: grid;
+                grid-template-columns:1fr;
+                grid-template-rows: repeat(5, 1fr);
+                gap: 5px;
+            }
+            .container div{
+                border-radius: 10px;
+            }
+            .prvi{
+                background-color: blue;
+            }
+            .drugi{
+                background-color: green;
+            }
+            .treci{
+                background-color: yellow;
+            }
+            .cetvrti{
+                background-color: purple;
+            }
+            .peti{
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="prvi">prvi</div>
+        <div class="drugi">drugi</div>
+        <div class="treci">treci</div>
+        <div class="cetvrti">cetvrti</div>
+        <div class="peti">peti</div>
+    </div>
+</body>
+</html>
