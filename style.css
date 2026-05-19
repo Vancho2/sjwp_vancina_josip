@@ -1,0 +1,12 @@
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+body {
+    background-color: #EEEEEE;
+}
+button {
+    background-color: #6FCF97;
+    color: black;
+}
